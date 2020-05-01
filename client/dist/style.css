@@ -1,0 +1,30 @@
+body {
+    font-family: 'Lucida Sans Unicode';
+  }
+  
+  h1 {
+    color: #717D7E;
+    text-align: center;
+    font-size: 50px;
+  }
+
+.col{ 
+    width: 100px;
+    display:inline-block;
+}
+.box{ 
+    background-color: white;
+    width: 100px;
+    border:1px solid;
+    height: 100px;
+    border-color:#3498DB;
+    border-radius: 100px;
+}
+.board{ 
+    margin: 40px auto;
+    border-spacing: 0px 0px;
+    background-color: #3498DB;
+    width: 600px;
+    border:3px solid;
+    border-color: #3498DB;
+}

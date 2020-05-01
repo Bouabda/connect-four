@@ -1,14 +1,20 @@
+import React from "react";
+import ReactDOM from "react-dom";
+import Board from "./components/game-board.jsx"
 class App extends React.Component{ 
     constructor(props){
         super(props);
     }
-    render (){ 
+    render (){  
         return(
-            <div> 
-            React is working
-            </div>)
+            
+            <div>
+            <h1>Connect Four</h1>
+            <Board></Board>
+            </div>
+            )
     }
 }
 
 
-ReactDOM.render(<App/>, document.getElementById("app"));
+ReactDOM.render(<App></App>, document.getElementById("app"));
